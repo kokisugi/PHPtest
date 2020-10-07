@@ -70,5 +70,5 @@ class RouteServiceProvider extends ServiceProvider
              ->namespace($this->namespace)
              ->group(base_path('routes/api.php'));
     }
+    public const HOME = '/home';
 }
-public const HOME = '/home';
